@@ -9,8 +9,19 @@
 <body>
     <section>
         <h2>Contato</h2>
-        <form action = "" method = "post">
-            <label for=""></label>
+        <form action = "https://api.staticforms.xyz/submit" method = "post">
+            
+            <label>Nome</label>
+            <input type="text" name = "name" placeholder = "Digite seu nome" autocomplete = "of">
+            <label>Email</label>
+            <input type="email" name = "email" placeholder = "Digite seu email" autocomplete = "off">
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder = "Digite sua mensagem"></textarea>
+            <button type = "submit">Enviar</button>
+            <input type="hidden" name="accessKey" value = "c42d333f-a3a5-4ca9-9b4f-262207169d6a"/>
+            <input type="hidden" name="redirectTo" value = "http://127.0.0.1:5500/obrigado.html"/>
+        </form>
+
     </section>
     
 </body>
