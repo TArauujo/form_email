@@ -9,7 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 10vh;
+    min-height: 100vh;
     background: black;
 }
 
@@ -26,6 +26,18 @@ section{
 
 section h2{
     color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: aliceblue;
     font-size: 17px;
     margin-bottom: 4px;
 }
