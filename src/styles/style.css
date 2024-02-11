@@ -12,3 +12,33 @@ body{
     min-height: 10vh;
     background: black;
 }
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: rgb(22, 21, 21);
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+section h2{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
