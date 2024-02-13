@@ -62,3 +62,24 @@ form textarea{
     margin-bottom: 30px;
     transition: all 0.5s;
 }
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: antiquewhite;
+    color: black;
+    border-radius: 16px;
+}
